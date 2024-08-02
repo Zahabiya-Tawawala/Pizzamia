@@ -6,11 +6,6 @@ Pizzamia is a web application clone of Pizza Hut that allows users to browse and
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -25,19 +20,3 @@ Pizzamia is a web application clone of Pizza Hut that allows users to browse and
 - Backend: Node.js, Express.js
 - Database: MongoDB
 - Authentication: Firebase
-
-## Getting Started
-
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-
-- Node.js installed on your machine
-- MongoDB installed and running
-- Firebase account and project setup
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/your-username/pizzamia.git
