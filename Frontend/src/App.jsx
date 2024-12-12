@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import Logo from './assets/Logo.png';
 import './App.css'
+import Username from "./Components/Username";
 
-function App() {
+function App() { 
 
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
           marginTop: '10px'
         }}/>
         <h1>Pizzamia Web App</h1>
+        <Username/>
     </div>
       
     </>
