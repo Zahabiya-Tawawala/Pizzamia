@@ -1,14 +1,14 @@
-const mysql2 = require("mysql2/promise");
+const mysql = require("mysql2/promise");
 
 const dbConnect = async () => {
   try {
-    const connect = await mysql2.createConnection({
+    const connect = await mysql.createConnection({
       host: process.env.DB_HOST,
       user: process.env.DB_USER,
       password: process.env.DB_PASSWORD,
       database: process.env.DB_NAME,
     });
-console.log("Connected to the database: ", process.env.DB_NAME, process.env.DB_HOST);
+console.log(`Connected to the database: ${process.env.DB_NAME} ${process.env.DB_HOST}`);
 return connect; // return the connection for reuse in other files
 
   } catch (err) {

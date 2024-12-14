@@ -1,5 +1,5 @@
 const register = async (req, res) => {
-    // Register logic
+    const {username, email, password, role} = req.body;
 }
 
 const login = async (req, res) => {
